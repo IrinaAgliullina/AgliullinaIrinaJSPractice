@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+.Container {
+  background: green;
+  display: flex;
+  justify-content: center;
+}
+.Container #InnerContainer {
+  background: red;
+  width: 1180px;
+  height: 1180px;
+  display: flex;
+}
+.Container #InnerContainer .black {
+  background: midnightblue;
+  width: 50px;
+  height: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
